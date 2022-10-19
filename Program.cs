@@ -6,7 +6,7 @@ namespace Journal2._0
     {
         static void Menu()
         {
-            Console.WriteLine("Выберите дату:");
+            Console.WriteLine("Выберите дату:"); //здесь есть недоработки, которые хотелось поправить, возможно они не появились до ночи
             List<string> dates = new List <string> { "  1 октября", "  5 октября", "  7 октября" };
             Console.WriteLine("    Создание заметки"); //для создание новой даты нажать на K
            
